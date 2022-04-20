@@ -19,6 +19,7 @@ function Content() {
 
     return (
         <main>
+            <h1>Dagmar Lewis</h1>
             <p>Hello {handleNameChange()}</p>
             <button onClick={(handleClick)}>Click it</button>
             <button onClick={(()=> handleClick2('Dagmar'))}>Click it</button>
